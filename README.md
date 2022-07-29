@@ -2,6 +2,8 @@
 
 This tool parses content of Hardhat produced `artifacts` directory, extracts all valid ABIs and generates Go bindings using `abigen`.
 
+It assumes `abigen` commandline tool is installed and available on `$PATH`. You can download `abigen` from https://geth.ethereum.org/downloads/ 
+
 ## Usage
 
 ```
